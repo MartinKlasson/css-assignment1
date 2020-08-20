@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: lightblue;
+    height: auto;
+    text-align: center;
+}
+
+a {
+    color: rgb(25, 0, 255);
+}
+
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+
+}
+h3 {
+    color: black;
+    
+}
+
+p {
+    color: black;
+    font-size: 14px;
+}
+
+footer p {
+    height: 13%;
+    width: 100%;
+    color: rgb(20, 84, 105);
+    font-size: 16px;
+}
+
+.flex-containerInd {
+    display: flex;
+    align-items: stretch;
+}
+
+.box-siteNameInd{
+    background-color: blueviolet;
+    padding: 20px 40px;
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-linkInd{
+    background-color: darkgrey;
+    padding: 20px 40px;
+    border: 1px solid black;
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    
+}
+.box-subTextInd p{
+    font-size: 20px;
+}
+
+.box-fillOutInd {
+    background-color: coral;
+    padding: 20px 40px;
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;     
+}
+
+.box-mainAreaInd{
+    display: flex;
+    align-items: stretch;
+
+}
+.box-leftMainAreaInd{
+    background-color: lightgrey;
+    width: 67%;
+}
+.box-rightMainAreaInd{
+    background-color: beige;
+    width: 33%;
+}
+
+.flex-container1Ind {
+    display: flex;
+    align-items: stretch;
+}
+
+.box-mainHeaderInd{
+    background-color: gray;
+    height: 10%;
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+.box-subTextInd{
+    background-color: gray;
+    height: 20%;
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px;
+}
+.box-articleInd{
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+.box-nationFactsInd{
+    background-color: cyan;
+    padding: 20px 40px;
+    height: 450px;
+    width: 200px;
+    border: 1px solid black;
+    
+    margin-top: 10%;
+    margin-bottom: 60%;
+    margin-left: 10%;
+    scroll-margin-right: 10%;
+}
+
+
+
+
+.container{
+    background-color:lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+.center-container{
+    height: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.box-siteName{
+    background-color: coral;
+    padding: 20px 40px;
+    border: 1px solid black;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+}
+.box-link{
+    background-color: darkgrey;
+    padding: 20px 40px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;   
+}
+.box-mainHeader{
+    background-color: green;
+    padding: 10px;
+    height: 25px;
+    width: 150px;
+    border: 1 px solid black;
+    margin: 10px;
+}
+
+.box-loginHeader {
+    background-color: gray;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px 15%;
+    text-align: center;
+}
+.box-login{
+    background-color: gray;
+    padding: 10px;
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px 15%;
+}
+
+
+.box-footer{
+    background-color: deeppink;
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    align-items: stretch 
+    background-color: darkred;
+}
+
+
+.flex-container > div {
+    align-items: stretch;
+    background-color: darksalmon;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
+}
+
+div.linkItem {
+    background-color: burlywood;
+    width: 150;
+    height: 75;
+    margin: auto;
+    border: 2px black;
+}
+
+section {
+    color: cornsilk;
+}
